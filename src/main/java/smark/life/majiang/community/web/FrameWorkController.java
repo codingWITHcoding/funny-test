@@ -10,6 +10,9 @@ public class FrameWorkController {
     @RequestMapping("/login")
     public String login(Model model){
         model.addAttribute("name","hahaha");
+
         return "login";
     }
+
+
 }
